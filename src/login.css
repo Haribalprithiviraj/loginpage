@@ -1,0 +1,38 @@
+*{
+    position:relative;
+    top:20%;
+    bottom:20%;
+    background-color:aliceblue;
+    border-radius:5px;
+    opacity:100%;
+}
+.container{
+    color:blue;
+    position:relative;
+    left:35%;
+    height:50vh;
+    width:50vh;
+    padding:20px;
+    border-radius: 80px;   
+    box-shadow:0 0 10px;
+    justify-items: center;
+  
+}
+input{
+    width:100%;
+    height:50%;
+    font-size:small;
+    text-align:center;
+    border-color:blue;
+    margin-bottom:10px;  
+
+}
+.login{
+    height:25px;
+    cursor:pointer;
+    border-radius:30px;
+    font-size:medium;
+    background-color:blue;
+    color:white;
+}
+
