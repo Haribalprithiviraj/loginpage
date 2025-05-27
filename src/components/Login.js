@@ -10,7 +10,7 @@ function Login(){
                         E-mail id or username 
                     </td>
                     <td>
-                        <input title="E-mailid"></input>
+                        <input title="E-mailid" id="email"></input>
                     </td>
                 </tr>
                 <tr>
@@ -18,7 +18,7 @@ function Login(){
                         Password
                     </td>
                     <td>
-                        <input type="password" title="password"></input>
+                        <input type="password" id="password" title="password"></input>
                     </td>
                 </tr>
                 <tr>
