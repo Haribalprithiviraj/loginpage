@@ -2,28 +2,28 @@ import React from "react"
 function Login(){
     return(
         <div class="container">
-         <h1 id="login">Login</h1>
-         <form method="get" >
-            <table class="table">
+         <h1 class="logo">Login</h1>
+         <form method="get">
+            <table>
                 <tr>
                     <td>
-                        E-mail id or username 
+                               <label id="label1">E-mail id or username</label> 
                     </td>
                     <td>
-                        <input title="E-mailid" id="email"></input>
+                               <input title="E-mailid" id="email" placeholder="Enter E-mail id"  required />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Password
+                               <label id="label2">Password</label> 
                     </td>
                     <td>
-                        <input type="password" id="password" title="password"></input>
+                              <input type="password" id="password" title="password" placeholder="Enter password"  required />
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <button class="login" onClick="popup()" title="login">Login</button> 
+                            <button class="login" onClick="popup()" title="login">Login</button>
                     </td>
                 </tr>
             </table>
