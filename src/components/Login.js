@@ -14,7 +14,7 @@ function Login(){
                    
                               <input type="password" id="password" title="password" placeholder="Enter password"  required />
                     
-                            <button id="login" onClick={handleloginclick()} title="login">Login</button>
+                            <button id="login" onClick={handleloginclick} title="login">Login</button>
                     
          </form>
          </div>
